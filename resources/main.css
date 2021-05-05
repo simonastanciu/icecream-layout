@@ -1,0 +1,323 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.layout-width {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.icecream-img-header {
+    width: 20%;
+    height: 250px;
+    background-image: url(../assets/shutterstock_261107618.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-wrapper {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #a76e63;
+}
+
+.search-icon,
+.social-icons {
+    width: 50%;
+    padding: 25px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    width: 60%;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Crimson Text', serif;
+    font-size: 21px;
+    padding: 0 25px;
+}
+
+.header-title {
+    position: absolute;
+    bottom: -50px;
+    right: 32%;
+    font-size: 150px;
+    font-family: 'Crimson Text', serif;
+}
+
+.header-title span:nth-of-type(2) {
+    font-family: 'Parisienne';
+    font-size: 80px;
+    position: relative;
+    bottom: 15px;
+}
+
+.mobile-menu {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(../assets/icon-menu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    z-index: 1;
+}
+
+.icecream-bg {
+    width: 350px;
+    height: 620px;
+    background-image: url(../assets/shutterstock_584691958.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: -60px;
+    z-index: -1;
+} 
+
+section {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+
+/*row-1*/
+.row-1 {
+    width: 90%;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 230px;
+    font-family: 'Crimson Text', serif;
+    color: #4f5666;
+    padding: 0 20px;
+    position: relative;
+    top: -60px;
+}
+
+.sub-title {
+    box-sizing: border-box;
+    margin-right: 100px;
+    padding-right: 80px;
+    position: relative;
+    top: 45px;
+}
+
+.sub-title div {
+    width: 170px;
+    font-size: 20px;
+    color: #4f5666;
+}
+
+/*row-2*/
+.row-2 {
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.row-2 .title {
+    top: -30px;
+}
+
+.cake-image {
+    width: 630px;
+    height: 280px;
+    background-image: url(../assets/shutterstock_240942928.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cake-image div:nth-child(1),
+.cake-image div:nth-child(2) {
+    width: 120px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+
+.cake-image div:nth-child(2) {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.main-image-wrapper {
+    width: 30%;
+    position: relative;
+}
+
+.icecream-image {
+    width: 400px;
+    height: 1000px;
+    background-image: url(../assets/cone-cioco.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -170px;
+    left: -35px;
+    z-index: -1;
+}
+
+/*row-3*/
+.row-3 {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+}
+
+.left-side,
+.right-side {
+    display: flex;
+}
+
+.center {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 755px;
+    height: 130px;
+    padding: 20px;
+    position: absolute;
+    background-color: #dcdbe1;
+    color: #4f5666;
+    bottom: 0;
+    left: 265px;
+}
+
+.left-content-wrapper,
+.right-content-wrapper {
+    color: #fff;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.left-side .left-content-wrapper:nth-child(1) {
+    width: 265px;
+    height: 450px;
+    background-color: #c6ada6;
+}
+
+.left-side .left-content-wrapper:nth-child(2),
+.right-side .right-content-wrapper:nth-child(1) {
+    width: 210px;
+    height: 320px;
+    background-color: #a76e63;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.right-side .right-content-wrapper:nth-child(1) {
+    background-color: #4f5666;
+}
+
+.right-side .right-content-wrapper:nth-child(2) {
+    width: 380px;
+    height: 450px;
+    background-color: #a76e63;
+}
+
+.left-content-wrapper .choco-image {
+    width: 250px;
+    height: 120px;
+    background-image: url(../assets/choco-fudge.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.right-content-wrapper .cookie-image {
+    width: 300px;
+    height: 160px;
+    background-image: url(../assets/cookies.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0px;
+    right: 35px;
+}
+
+h1,
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 38px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 28px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.center h1 {
+    font-size: 37px;
+    width: 400px;
+    padding-top: 25px;
+}
+
+.center div {
+    width: 300px;
+}
+
+.left-content-wrapper div:nth-of-type(1),
+.right-content-wrapper div:nth-of-type(1),
+.alt-text div:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+
+.left-content-wrapper div:nth-of-type(2),
+.right-content-wrapper div:nth-of-type(2),
+.alt-text div:nth-of-type(2) {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.alt-text div:nth-of-type(1) {
+    padding-bottom: 15px;
+}

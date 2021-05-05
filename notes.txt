@@ -1,0 +1,10 @@
+Useful info:
+- colors:
+    - brownish: #a76e63
+    - light brown: #c6ada6
+    - blueish: #4f5666
+    - grey: #dcdbe1
+- fonts:
+    - small text: Acumin Pro
+    - main title: Magneta
+    - cursive: Al Fresco
